@@ -1,0 +1,117 @@
+/*
+  font-family: 'Libre Baskerville', serif;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Poiret One', cursive;
+  font-family: 'Roboto Mono', monospace;
+  font-family: 'Vollkorn', serif;
+*/
+
+
+body{
+  background-color: #eee;
+  font-family: 'Lato', sans-serif;
+}
+
+
+.main{
+  background-color: #E8DAD9;
+  border: 30px solid white;
+  height: 100vh;
+  position: relative;
+  min-height: 300px;
+}
+
+.main h1{
+  margin: 0;
+  font-size: 10em;
+  font-family: 'Vollkorn', serif;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  text-align: right;
+  transform: translate(-50%, -50%);
+  animation: fadein 2.5s linear;
+}
+
+.main p{
+  margin: 0;
+  font-size: 2em;
+  font-family: 'Roboto Mono', monospace;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  text-align: right;
+  transform: translate(-50%, -50%);
+  animation: fadein 2.5s linear;
+}
+
+@keyframes fadein{
+  0% {color: #E8DAD9;}
+  100% {color: #333333;}
+}
+
+.icons{
+  height: 500px;
+  background-color: #eee;
+  border: 15px solid white;
+  margin-top: -15px;
+  position: relative;
+}
+
+.icons img{
+  margin: 0;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100px;
+}
+
+.icons p{
+  margin: 0;
+  position: absolute;
+  font-family: 'Roboto Mono', monospace;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.description{
+  border: 30px solid white;
+  background-color: #eee;
+  position: relative;
+  height: 500px;
+  min-height: 300px;
+  margin-top: -15px;
+}
+
+.description h3{
+  margin: 0;
+  font-family: 'Roboto Mono', monospace;
+  color: #fff;
+  font-size: 24em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.description p{
+  margin: 0;
+  font-family: 'Roboto Mono', monospace;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.footer{
+  border: 30px solid white;
+  background-color: #595959;
+  position: relative;
+  height: 320px;
+  min-height: 300px;
+  margin-top: -30px;
+}
